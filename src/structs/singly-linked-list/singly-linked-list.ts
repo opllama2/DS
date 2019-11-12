@@ -1,5 +1,5 @@
-import { ListNode } from "../classes/list-node";
-import { LinkedList } from "../interfaces/linked-list";
+import { ListNode } from "../../classes/list-node";
+import { LinkedList } from "../../interfaces/linked-list";
 
 export class SinglyLinkedList implements LinkedList {
   private head: ListNode = null;
@@ -17,14 +17,14 @@ export class SinglyLinkedList implements LinkedList {
    * The head of the list
    */
   public get first(): any {
-    return this.head ? this.head.value : null;
+    return this.head ? this.head : null;
   }
 
   /**
    * The tail of the list
    */
   public get last(): any {
-    return this.tail ? this.tail.value : null;
+    return this.tail ? this.tail : null;
   }
 
   /**
