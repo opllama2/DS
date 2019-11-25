@@ -4,7 +4,6 @@
     "module": "commonjs",
     "declaration": true,
     "declarationDir": "./dist",
-    "noImplicitAny": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   },
