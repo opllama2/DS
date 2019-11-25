@@ -17,14 +17,14 @@ export class SinglyLinkedList implements LinkedList {
    * The head of the list
    */
   public get first(): any {
-    return this.head ? this.head : null;
+    return this.head;
   }
 
   /**
    * The tail of the list
    */
   public get last(): any {
-    return this.tail ? this.tail : null;
+    return this.tail;
   }
 
   /**
