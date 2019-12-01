@@ -2,7 +2,7 @@
   "name": "@opllama.js/DS",
   "version": "0.0.0",
   "description": "",
-  "main": "main.bundle.js",
+  "main": "dist/main.bundle.js",
   "scripts": {
     "build": "webpack -p",
     "test": "karma start karma.config.js"

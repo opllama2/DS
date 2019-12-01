@@ -5,6 +5,7 @@ test_results/
 .commitlintrc.js
 .travis.yml
 .releaserc
+.gitignore
 karma.config.js
 package-lock.json
 tsconfig.json
