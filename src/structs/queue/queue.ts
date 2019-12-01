@@ -24,6 +24,7 @@ export class Queue {
    * @returns {any} the next item in the queue
    */
   public dequeue(): any {
-    return this.items.shift().value;
+    let next = this.items.shift();
+    return next ? next.value : null;
   }
 }
