@@ -11,7 +11,6 @@ script:
 
 before_deploy:
   - npx semantic-release
-  - git push --tags
   - cp package.json dist/package.json
   - cd dist
 
