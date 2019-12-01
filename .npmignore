@@ -1,0 +1,11 @@
+node_modules/
+src/
+test_results/
+.babelrc
+.commitlintrc.js
+.travis.yml
+.releaserc
+karma.config.js
+package-lock.json
+tsconfig.json
+webpack.config.js

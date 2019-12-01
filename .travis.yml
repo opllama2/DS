@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - node
+install: npm install
+
+before_script:
+  - echo "Starting Build..."
+script:
+  - npm test
+  - npm run build
+
+before_deploy:
+  - npx semantic-release
+  - cp package.json dist/package.json
+  - cd dist
+
+deploy:
+  provider: npm
+  email: opllama2@gmail.com
+  on:
+    tags: true
+  api_key:
+    secure: DoXvpdT3MZyx6M/01vl8Ylx5oEdF1uLn9iJV/V0ax67S/pwAfix1IAkIOX+gRFG+lUb5U6pRfZC6iyPwTzGvb0FBIdo6w7Jt2vjIhH3Lid1muK8ci0A/pXjyCgESL3vGCZLagWPICtXX/UTxNq7Oe80uzfv+4jeswfmayAjlrFY0MAQ6KVoIkfqBUuEqkXIWJtdLz+ZevlicMnqftDPNJAH8zrVUQPbhtlrr7DaqNaGEOJOo/99Z3jerNbSEOthv2Enwb4NT8zGMF6ZeYcKd8zkVujTriH8rLldWg5dxQcQLeoS+xQY2Rv0jna9UG3qKIp7nK/F7YOh+XnfSPSH7m6MPT92gVaPvNRpavDblc4A9U1xKcQH4OSGWUlzyeKqBFntk8kT8t8N8GeGlRz8uENmP3hgse2zSg7F2ziZBxvXi6GtEefFwcvJjq79ygMQ6f/2E99IXeAClCzE7dbFdUQkezGZuS6P6pKugK+lTCbNDmyWlCSJLK6MZrq2HEr6GsZP+EmJyc3/Lw7MOQYTFfV5FR27a3G4hDX/TrLrtbAsrA3iE2LTCNYZGNRg1+NcypQX5Da8PGUAnqe69XjQGVcYR8B9gOO+bqfsTj1ovoye9lS/Uylvu8ALpMRUsBJ0fGdENTKrom5NlMJmNEgIVl1PhoTzRJEDCtyUKmDgq6ok=
+  skip_cleanup: true
