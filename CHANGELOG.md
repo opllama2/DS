@@ -1,3 +1,10 @@
+## [1.0.3-beta.2](https://github.com/opllama2/DS/compare/v1.0.3-beta.1@beta...v1.0.3-beta.2@beta) (2019-12-02)
+
+
+### Features
+
+* added stack struct ([82cc4b1](https://github.com/opllama2/DS/commit/82cc4b1c1f287dc46a34c793c6bf2adb6e742b18))
+
 ## [1.0.3-beta.1](https://github.com/opllama2/DS/compare/v1.0.2...v1.0.3-beta.1@beta) (2019-12-02)
 
 
