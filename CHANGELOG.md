@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/opllama2/DS/compare/v1.0.2...v1.1.0) (2019-12-02)
+
+
+### Bug Fixes
+
+* **queue,stack:** exposed queue and stack in the API ([6fa6d66](https://github.com/opllama2/DS/commit/6fa6d666e5e02b980ab34f6e8a3e18af461a94de))
+* **queue,stack:** exposed queue and stack in the API ([020e7e2](https://github.com/opllama2/DS/commit/020e7e2b6d9731bf2a2571bf1ab0679ded85d27c))
+* expose DoublyLinkedList ([379539b](https://github.com/opllama2/DS/commit/379539ba3919d6c80f2f7e15555632cec485acc0))
+* fixed an issue in dequeue when the queue is empty ([ccf706b](https://github.com/opllama2/DS/commit/ccf706b366fbf22ecec95c2d68627c5e8c0f2566))
+
+
+### Features
+
+* added stack struct ([82cc4b1](https://github.com/opllama2/DS/commit/82cc4b1c1f287dc46a34c793c6bf2adb6e742b18))
+
 ## [1.0.3-beta.3](https://github.com/opllama2/DS/compare/v1.0.3-beta.2@beta...v1.0.3-beta.3@beta) (2019-12-02)
 
 
