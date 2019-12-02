@@ -1,5 +1,5 @@
 {
-  "name": "@opllama.js/DS",
+  "name": "@opllama.js/ds",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.bundle.js",
