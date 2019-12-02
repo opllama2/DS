@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/opllama2/DS/compare/v1.0.1...v1.0.2) (2019-12-02)
+
+
+### Bug Fixes
+
+* changed package name to be lowercase ([81c42d4](https://github.com/opllama2/DS/commit/81c42d44f778e08ab13a1a5014ee6268139bf9c3))
+
 ## [1.0.1](https://github.com/opllama2/DS/compare/v1.0.0...v1.0.1) (2019-12-02)
 
 
