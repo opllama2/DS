@@ -1,3 +1,11 @@
+## [1.0.3-beta.3](https://github.com/opllama2/DS/compare/v1.0.3-beta.2@beta...v1.0.3-beta.3@beta) (2019-12-02)
+
+
+### Bug Fixes
+
+* **queue,stack:** exposed queue and stack in the API ([6fa6d66](https://github.com/opllama2/DS/commit/6fa6d666e5e02b980ab34f6e8a3e18af461a94de))
+* **queue,stack:** exposed queue and stack in the API ([020e7e2](https://github.com/opllama2/DS/commit/020e7e2b6d9731bf2a2571bf1ab0679ded85d27c))
+
 ## [1.0.3-beta.2](https://github.com/opllama2/DS/compare/v1.0.3-beta.1@beta...v1.0.3-beta.2@beta) (2019-12-02)
 
 
