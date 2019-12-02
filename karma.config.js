@@ -4,7 +4,7 @@ module.exports = function(config) {
     basePath: "",
     frameworks: ["jasmine"],
     reporters: ["progress", "html"],
-    browsers: ["PhantomJS"],
+    browsers: ["ChromeHeadless"],
     singleRun: true,
     preprocessors: {
       "src/tests.js": "webpack"
@@ -16,7 +16,7 @@ module.exports = function(config) {
     },
     plugins: [
       require("karma-webpack"),
-      require("karma-phantomjs-launcher"),
+      require("karma-chrome-launcher"),
       require("karma-jasmine"),
       require("karma-html-reporter")
     ]
