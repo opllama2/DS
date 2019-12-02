@@ -5,7 +5,8 @@
   "main": "dist/main.bundle.js",
   "scripts": {
     "build": "webpack -p",
-    "test": "karma start karma.config.js"
+    "test": "karma start karma.config.js",
+    "release": "semantic-release"
   },
   "keywords": [],
   "author": "",
@@ -40,6 +41,7 @@
     "karma-html-reporter": "^0.2.7",
     "karma-jasmine": "^2.0.1",
     "karma-webpack": "^4.0.2",
+    "semantic-release": "^16.0.0-beta.38",
     "typescript": "^3.7.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
