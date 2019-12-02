@@ -1,3 +1,11 @@
+## [1.0.3-beta.1](https://github.com/opllama2/DS/compare/v1.0.2...v1.0.3-beta.1@beta) (2019-12-02)
+
+
+### Bug Fixes
+
+* expose DoublyLinkedList ([379539b](https://github.com/opllama2/DS/commit/379539ba3919d6c80f2f7e15555632cec485acc0))
+* fixed an issue in dequeue when the queue is empty ([ccf706b](https://github.com/opllama2/DS/commit/ccf706b366fbf22ecec95c2d68627c5e8c0f2566))
+
 ## [1.0.2](https://github.com/opllama2/DS/compare/v1.0.1...v1.0.2) (2019-12-02)
 
 
