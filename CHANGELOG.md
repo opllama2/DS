@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/opllama2/DS/compare/v1.0.0...v1.0.1) (2019-12-02)
+
+
+### Bug Fixes
+
+* **semantic-release:** upgraded npm package to beta ([6b6b12b](https://github.com/opllama2/DS/commit/6b6b12bc73e8aa64444aeca7ad1829c5ba08bbe1))
+
 # 1.0.0 (2019-12-02)
 
 
