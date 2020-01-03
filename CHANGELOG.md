@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/opllama2/DS/compare/v1.1.0...v1.2.0) (2020-01-03)
+
+
+### Bug Fixes
+
+* exposed BinaryHeap in main.ts ([b110bad](https://github.com/opllama2/DS/commit/b110bad273381a580a7a1a508711c0a671558ad5))
+
+
+### Features
+
+* BinaryHeap class ([e89bb8f](https://github.com/opllama2/DS/commit/e89bb8f9423658a50fdff5000e160e83020d6147))
+* BinaryHeap Generic Class and README file ([f031784](https://github.com/opllama2/DS/commit/f03178410e7065b44787388b69f6710e06a4995c))
+* **BinaryHeap:** added BinaryHeap class as generic class for Min/Max Heaps ([9796f51](https://github.com/opllama2/DS/commit/9796f5102e9c4b7f1fa557946f2d6b91486da756))
+
 # [1.2.0-beta.1](https://github.com/opllama2/DS/compare/v1.1.0...v1.2.0-beta.1@beta) (2020-01-03)
 
 
